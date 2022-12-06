@@ -67,6 +67,15 @@
     flex-wrap: wrap;
 }
 
+.handsigns .hand{
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.handsigns .hand:hover {
+    transform: translate3d(0px, -8px, 0px);
+}
+
 .paper{
     margin-right: 25px;
 }
