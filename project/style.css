@@ -1,4 +1,76 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family:"Barlow Condensed", sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(
+        134.34% 134.34% at 50% 0%,
+        #1f3757 0%,
+        #131537 100%); 
+}
+.header{
+    width: 700px;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.logo{
+    margin: 20px;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    
+}
+.score p {
+    font-size: 20px;
+    color: #1f3757;
+}
+
+.score h1{
+    font-size: 50px;
+}
+
+
+
+.handsigns{
+    background-image: url(/assets/triangle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    width: 476px;
+    height: 430px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.paper{
+    margin-right: 25px;
+}
+
+.scissors{
+    margin-left: 25px;
 }
