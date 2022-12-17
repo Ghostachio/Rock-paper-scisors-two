@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -5,7 +7,7 @@
 }
 
 .body{
-    font-family:"Barlow Condensed", sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .wrapper{
@@ -82,4 +84,79 @@
 
 .scissors{
     margin-left: 25px;
+}
+
+.contest{
+    display:flex;
+    justify-content: space-between;
+    display: none;
+    margin-top: 50px;
+    width: 900px;     
+}
+
+.player{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.computer{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.result{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.player h1{
+    color: aliceblue;
+}
+
+.computer h1{
+    color: aliceblue;
+}
+
+#theResults{
+    color: rgba(255, 207, 49, 0.836);
+}
+
+
+#playAgainButton{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f3757;
+    background-color: aliceblue;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#playAgainButton{
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+#playAgainButton:hover{
+    transform: translate3d(0px , -8px , 0px);
+}
+
+.finalGame{
+    display: none;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    position:absolute;
+    top: 300px;
+    font-weight: bold;
+
 }
